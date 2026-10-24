@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameCritique - Contact Us</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="index.html">GameCritique</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reviews.html">All Reviews</a></li>
+                <li><a href="rankings.html">Rankings</a></li>
+                <li><a href="about.html">About &amp; Methodology</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section-header">
+            <div>
+                <h1>Contact Us</h1>
+                <p>Have feedback on our reviews, suggestions for games to add, or questions about the site? Send us a message below.</p>
+            </div>
+        </div>
+
+        <!-- Feedback Form -->
+        <section class="form-container">
+            <form action="#" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="contact-name">Full Name *</label>
+                        <input type="text" id="contact-name" name="full_name" required minlength="2" placeholder="e.g. Alex Morgan">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email Address *</label>
+                        <input type="email" id="contact-email" name="email_address" required placeholder="alex.morgan@domain.com">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="contact-topic">Reason for Inquiry *</label>
+                        <select id="contact-topic" name="inquiry_topic" required>
+                            <option value="">Select a topic...</option>
+                            <option value="review-request">Suggest a Game to Review</option>
+                            <option value="score-dispute">Question About a Score</option>
+                            <option value="bug-report">Report a Site Bug / Issue</option>
+                            <option value="general">General Feedback</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="game-title-input">Associated Game Title (Optional)</label>
+                        <input type="text" id="game-title-input" name="game_title" placeholder="e.g. Baldur's Gate 3">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-message">Detailed Message *</label>
+                    <textarea id="contact-message" name="message_content" rows="6" required minlength="15" placeholder="Write your message here..."></textarea>
+                </div>
+
+                <div class="btn-group">
+                    <button type="submit" class="btn">Send Message</button>
+                    <button type="reset" class="btn btn-secondary">Clear Form</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Page Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">GameCritique</div>
+            <ul class="footer-sources">
+                <li><a href="https://www.metacritic.com/game/" target="_blank" rel="noopener noreferrer">Metacritic Data</a></li>
+                <li><a href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer">Steam Community</a></li>
+                <li><a href="https://rawg.io/" target="_blank" rel="noopener noreferrer">RAWG API</a></li>
+                <li><a href="https://www.w3.org/WAI/WCAG22/quickref/" target="_blank" rel="noopener noreferrer">WCAG Accessibility</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 GameCritique. All scores and game titles belong to their respective creators.</p>
+            <p>Valid Semantic HTML5 &amp; Vanilla CSS</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameCritique - Critical Consensus Rankings &amp; Leaderboard</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="index.html">GameCritique</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reviews.html">All Reviews</a></li>
+                <li><a href="rankings.html" class="active">Rankings</a></li>
+                <li><a href="about.html">About &amp; Methodology</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section-header">
+            <div>
+                <h1>Hall of Fame Leaderboard</h1>
+                <p>Rankings of our top 6 reviewed video games based on critic and player scores.</p>
+            </div>
+        </div>
+
+        <!-- Summary Stats -->
+        <div class="algorithm-cards">
+            <article class="algo-card">
+                <p class="algo-percent">6</p>
+                <h3>Reviewed Games</h3>
+                <p>Top picks across RPG, Indie, and Open World genres.</p>
+            </article>
+            <article class="algo-card">
+                <p class="algo-percent">95.3</p>
+                <h3>Average Score</h3>
+                <p>Average score across all six games on our leaderboard.</p>
+            </article>
+            <article class="algo-card">
+                <p class="algo-percent">#1</p>
+                <h3>Baldur's Gate 3</h3>
+                <p>Top-rated game on our site with an overall score of 98.</p>
+            </article>
+        </div>
+
+        <!-- Leaderboard Table -->
+        <div class="rankings-table-wrap">
+            <table class="rankings-table">
+                <caption>Critical Consensus Top 6 Leaderboard</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Cover</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Developer</th>
+                        <th scope="col">Genre</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="rank-badge rank-gold">#1</span></td>
+                        <td><img src="images/bg3.jpg" alt="Baldur's Gate 3 official key art featuring party companions" class="table-thumb"></td>
+                        <td><strong>Baldur's Gate 3</strong></td>
+                        <td>Larian Studios</td>
+                        <td>CRPG / Turn-Based</td>
+                        <td>2023</td>
+                        <td><span class="benchmark-value green">98/100</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="rank-badge rank-silver">#2</span></td>
+                        <td><img src="images/hades.jpg" alt="Hades official key art featuring Zagreus" class="table-thumb"></td>
+                        <td><strong>Hades</strong></td>
+                        <td>Supergiant Games</td>
+                        <td>Rogue-like Action RPG</td>
+                        <td>2020</td>
+                        <td><span class="benchmark-value green">96/100</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="rank-badge rank-bronze">#3</span></td>
+                        <td><img src="images/stardewvalley.jpg" alt="Stardew Valley official key art" class="table-thumb"></td>
+                        <td><strong>Stardew Valley</strong></td>
+                        <td>ConcernedApe</td>
+                        <td>Farming Simulation / RPG</td>
+                        <td>2016</td>
+                        <td><span class="benchmark-value green">96/100</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="rank-badge">#4</span></td>
+                        <td><img src="images/gtav.jpg" alt="Grand Theft Auto V official key art" class="table-thumb"></td>
+                        <td><strong>Grand Theft Auto V</strong></td>
+                        <td>Rockstar North</td>
+                        <td>Open-World Action-Adventure</td>
+                        <td>2013</td>
+                        <td><span class="benchmark-value green">96/100</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="rank-badge">#5</span></td>
+                        <td><img src="images/spiderman.jpg" alt="Marvel's Spider-Man official key art" class="table-thumb"></td>
+                        <td><strong>Marvel's Spider-Man Remastered</strong></td>
+                        <td>Insomniac Games</td>
+                        <td>Superhero Action-Adventure</td>
+                        <td>2022</td>
+                        <td><span class="benchmark-value green">94/100</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="rank-badge">#6</span></td>
+                        <td><img src="images/cyberpunk.jpg" alt="Cyberpunk 2077 official key art featuring V" class="table-thumb"></td>
+                        <td><strong>Cyberpunk 2077</strong></td>
+                        <td>CD Projekt Red</td>
+                        <td>Sci-Fi RPG / Open-World</td>
+                        <td>2020</td>
+                        <td><span class="benchmark-value green">92/100</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">GameCritique</div>
+            <ul class="footer-sources">
+                <li><a href="https://www.metacritic.com/game/" target="_blank" rel="noopener noreferrer">Metacritic Data</a></li>
+                <li><a href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer">Steam Community</a></li>
+                <li><a href="https://rawg.io/" target="_blank" rel="noopener noreferrer">RAWG API</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 GameCritique. All scores and game titles belong to their respective creators.</p>
+            <p>Valid Semantic HTML5 &amp; Vanilla CSS</p>
+        </div>
+    </footer>
+</body>
+</html>
